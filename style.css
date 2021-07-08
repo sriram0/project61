@@ -1,0 +1,56 @@
+code{
+    font-size: 3em;
+}
+body{
+    text-align: center;
+    /* The image used */
+    background-image: url("codeimg.jpeg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    border:5px ridge yellow;
+    width: 40%;
+    transition: width 1s, height 1s;
+}
+img:hover{
+    width: 20%;
+    height: 50%;
+}
+div{
+    background: linear-gradient(to bottom, lightgreen 0%, yellow 90%, aqua 100%);
+    padding: 7px;
+    margin: 50px;
+    height: 600px;
+}
+ul{
+    list-style: none;
+}
+#menu{
+    position: fixed;
+    top: 30px;
+    left: 20px;
+}
+#menu li{
+    float: left;
+    margin: 3px;
+}
+#menu li:hover{
+    border: 2px solid yellow;
+    background: aqua;
+    text-decoration: underline;
+    padding: 2px;
+    color: green;
+    font-weight: bold;
+}
+ol{
+    margin: auto;
+}
